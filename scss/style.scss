@@ -8,10 +8,14 @@
     padding: 0;
 }
 
+html {
+    scroll-padding-top: 66px;
+}
+
 body {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    background-color: #444;
+    background-color: #eee;
 }
 
 nav {
@@ -19,9 +23,9 @@ nav {
     text-transform: uppercase;
     z-index: 1;
     
-    a, i { color: $white-color; }
+    a, i { color: $primary-color; }
 
-    a:hover { color: $blue-color; }
+    a:hover { color: $secondary-color; }
 
     .fa-bars { padding: 10px; }
 
@@ -30,7 +34,7 @@ nav {
         font-size: 15px;
     }
 
-    .active { color: $blue-color; }
+    .active { color: $secondary-color; }
     transition: background-color .3s;
 }
 
@@ -39,10 +43,10 @@ nav {
 }
 
 header {
-    color: $white-color;
+    color: $primary-color;
     
     h1 { text-transform: uppercase; }
-    p { color: $blue-color; }
+    p { color: $secondary-color; }
 
     .hero-img{
         position: relative;
@@ -86,7 +90,48 @@ header {
             left: 50%;
             transform: translate(-50%);
             font-size: 30px;
-            color: $white-color;
+            color: $primary-color;
+        }
+    }
+}
+
+main {
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .underline {
+        position: absolute;
+        width: 60px;
+        height: 4px;
+        background-color: $secondary-color; 
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .aboutus {        
+        i {
+            margin-top: 40px;
+            font-size: 30px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }   
+
+        .description {
+            font-style: 14px;
+        }
+
+        .aboutus-hover {
+            transition: color .3s;
+        }
+
+        .aboutus-hover:hover {
+            color: $secondary-color;
         }
     }
 }
@@ -107,6 +152,12 @@ header {
         p {
             font-size: 16px
         }
+    }
+}
+
+@media(min-width: 992px){
+    html {
+        scroll-padding-top: 56px;
     }
 }
 

@@ -7,10 +7,14 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 66px;
+}
+
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  background-color: #444;
+  background-color: #eee;
 }
 
 nav {
@@ -115,6 +119,45 @@ header .hero-img .fa-chevron-down {
   color: #fff;
 }
 
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main .underline {
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #039dff;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+main .aboutus i {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+main .aboutus .title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .aboutus .description {
+  font-style: 14px;
+}
+
+main .aboutus .aboutus-hover {
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+main .aboutus .aboutus-hover:hover {
+  color: #039dff;
+}
+
 @media (min-width: 400px) {
   nav .navbar-brand {
     font-size: 20px;
@@ -127,6 +170,12 @@ header .hero-img .fa-chevron-down {
   }
   header p {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 56px;
   }
 }
 

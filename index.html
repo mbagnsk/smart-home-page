@@ -8,12 +8,13 @@
     <script src="https://kit.fontawesome.com/24e43f5de9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style.css">
 
     <title>Inteligenty budynek</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar">
-    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 py-3">
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 py-2">
         <div class="container">
           <a class="navbar-brand" href="#"><i class="fas fa-home"></i>Inteligenty budynek</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +48,47 @@
     </header>
 
     <main>
-        <section id="aboutus" class="aboutus">
-
+        <section id="aboutus" class="aboutus py-5">
+            <div class="container">
+                <h2>o nas</h2>
+                <div class="underline"></div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-user-graduate"></i></div>
+                        <div class="title">studenci</div>
+                        <div class="description">Jesteśmy studentami Automatyki i Robotyki.</div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-users"></i></div>
+                        <div class="title">zespół</div>
+                        <div class="description">Pracujemy w grupie czteroosobowej.</div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-wrench"></i></div>
+                        <div class="title">projekt</div>
+                        <div class="description">Wspólnie realizujemy projekt związany z automatyką budynkową.</div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-keyboard"></i></div>
+                        <div class="title">Sterowanie</div>
+                        <div class="description">Z poziomu aplikacji chcemy sterować temperaturą oraz mocą światła w pomieszczeniach.</div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-database"></i></div>
+                        <div class="title">Pomiary</div>
+                        <div class="description">Dane uzyskane poprzez czujnik temperatury oraz czujnik ruchu chcemy umieszczać w bazie danych.</div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <div class="icon"><i class="fas fa-desktop"></i></div>
+                        <div class="title">strona internetowa</div>
+                        <div class="description">Wyniki pracy będziemy prezentować na stronie internetowej.</div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <div style="height: 100vh;"></div>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>

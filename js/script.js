@@ -1,17 +1,19 @@
 document.addEventListener('DOMContentLoaded', function(){
-    console.log('dupa');
-
     const nav = document.querySelector('nav')
+    const navLinks = document.querySelectorAll('.nav-link')
+    const navList = document.querySelector('.navbar .container div')
+    
     function addShadow(){
         if(window.scrollY >= 300) {
             navbar.classList.add('shadow-bg')
-            console.log('co jest')
         }
         else{
             navbar.classList.remove('shadow-bg')
         }
     }
 
-    document.addEventListener('scroll', addShadow)
-})
+    navLinks.forEach(item => item.addEventListener('click', () => navList.classList.remove('show')))
 
+    document.addEventListener('scroll', addShadow)
+    
+})
