@@ -39,7 +39,7 @@ nav {
 }
 
 .shadow-bg {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 header {
@@ -135,15 +135,7 @@ main {
         }
     }
 
-    .team-shadow {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: -5;
-    }
+
 
     .team {
         position: relative;
@@ -183,17 +175,28 @@ main {
                     text-align: center;
                     text-transform: uppercase;
                 }
+
+                .card-body {
+                    height: 200px;
+                }
             }
 
             .card:hover {
                 transform: scale(0.95);
             }
         }
+
+        .team-shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: -5;
+        }
     }
 }
-
-
-
 
 @media(min-width: 400px){
     nav{

@@ -47,7 +47,7 @@ nav .active {
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 header {
@@ -158,16 +158,6 @@ main .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
 
-main .team-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -5;
-}
-
 main .team {
   position: relative;
   background-image: url("../img/conference-room1920.jpg");
@@ -215,9 +205,23 @@ main .team .card-group .card .card-title {
   text-transform: uppercase;
 }
 
+main .team .card-group .card .card-body {
+  height: 200px;
+}
+
 main .team .card-group .card:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+main .team .team-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -5;
 }
 
 @media (min-width: 400px) {
