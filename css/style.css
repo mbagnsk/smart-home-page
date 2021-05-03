@@ -158,6 +158,36 @@ main .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
 
+main .aboutproject .carousel {
+  margin-top: 50px;
+}
+
+main .aboutproject .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+main .aboutproject .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: seashell;
+}
+
+main .aboutproject .carousel-caption h5 {
+  font-weight: bold;
+}
+
+main .aboutproject .carousel-caption p {
+  padding: 0 100px;
+}
+
+main .aboutproject .carousel-indicators {
+  padding-bottom: 20px;
+}
+
 main .team {
   position: relative;
   background-image: url("../img/conference-room1920.jpg");
@@ -206,7 +236,7 @@ main .team .card-group .card .card-title {
 }
 
 main .team .card-group .card .card-body {
-  height: 200px;
+  height: 250px;
 }
 
 main .team .card-group .card:hover {

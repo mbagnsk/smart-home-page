@@ -135,6 +135,37 @@ main {
         }
     }
 
+    .aboutproject {
+        .carousel {
+            margin-top: 50px;
+        }
+        .carousel-item {
+            position: relative;
+            height: 600px;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 40px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: seashell;
+
+            h5 {
+                font-weight: bold;
+            }
+
+            p {
+                padding: 0 100px;
+            }
+        }
+
+        .carousel-indicators {
+            padding-bottom: 20px;
+        }
+    }
+
 
 
     .team {
@@ -177,7 +208,7 @@ main {
                 }
 
                 .card-body {
-                    height: 200px;
+                    height: 250px;
                 }
             }
 
