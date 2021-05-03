@@ -134,7 +134,66 @@ main {
             color: $secondary-color;
         }
     }
+
+    .team-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: -5;
+    }
+
+    .team {
+        position: relative;
+        background-image: url('../img/conference-room1920.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+
+        h2 {
+            padding-top: 15px;
+            color: #ddd;
+        }
+
+        .fab {
+            color: $secondary-color;
+            transition: color .3s;
+        }
+
+        .fab:hover {
+            color: rgb(73, 89, 165)
+        }
+
+        .card-group{
+            padding-bottom: 30px;
+            z-index: 5;
+
+            .card {
+                transition: transform .3s;
+                
+                img {
+                    height: 300px;
+                    object-fit: cover;
+                }
+
+                .card-title {
+                    margin-bottom: 20px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+
+            .card:hover {
+                transform: scale(0.95);
+            }
+        }
+    }
 }
+
+
+
 
 @media(min-width: 400px){
     nav{

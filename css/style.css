@@ -158,6 +158,68 @@ main .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
 
+main .team-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -5;
+}
+
+main .team {
+  position: relative;
+  background-image: url("../img/conference-room1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+main .team h2 {
+  padding-top: 15px;
+  color: #ddd;
+}
+
+main .team .fab {
+  color: #039dff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+main .team .fab:hover {
+  color: #4959a5;
+}
+
+main .team .card-group {
+  padding-bottom: 30px;
+  z-index: 5;
+}
+
+main .team .card-group .card {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+main .team .card-group .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .team .card-group .card .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main .team .card-group .card:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
 @media (min-width: 400px) {
   nav .navbar-brand {
     font-size: 20px;
