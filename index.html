@@ -90,7 +90,57 @@
             <h2>opis projektu</h2>
             <div class="underline"></div>
             <div class="container">
-                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+
+                <!-- MOBILE VERSION -->
+                <div class="card-group d-lg-none">
+                    <div class="row">
+                        <div class="card col-md-6">
+                            <img src="./img/house1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Inteligentny budynek</h5>
+                              <p class="card-text">Realizujemy budowę modelu inteligentnego domu, którego ogrzewaniem oraz oświetleniem będzie można sterować przy pomocy aplikacji. Na staży makiety będzie czuwał alarm przeciwwłamaniowy.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <img src="./img/electronics1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Elementy elektroniczne</h5>
+                              <p class="card-text">Projekt opiera się na na układzie ESP8266 z modułem komunikacyjnym WiFi. To dzięki niemu możliwe jest sterowanie lub zbieranie danych wykorzystanymi komponentami: matą grzewczą, czujnikiem temperatury, diodami led oraz czujnikiem ruchu.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <img src="./img/database1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Zbieranie danych</h5>
+                              <p class="card-text">Informacje na temat aktualnego stanu komponentów oraz dane pozyskiwane dzięki czujnikom poprzez protokół MQTT będą przekazywane do brokera. Kolejno odpowiednio przechowywane w bazie danych.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <img src="./img/controller1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Sterowanie obiektem</h5>
+                              <p class="card-text">Zmiana stanu obiektu będzie mogła być realizowana zdalnie również dzięki wykorzystaniu protokołu MQTT oraz aplikacji webowej.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <img src="./img/code1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Strona internetowa</h5>
+                              <p class="card-text">W celu prezentacji zespołu oraz przedstawienia postępów w realizacji projektu powstała strona internetowa. Już wkrótce z jej poziomu będzie możliwość podglądu aktualnego stanu modelu oraz sterowanie nim. Wykorzystane technologie front-endowe: HTML5, CSS3, SASS, JavaScript, jQuery, Bootstrap oraz system kontroli wersji Git.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-6">
+                            <img src="./img/concept-1868728_1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center fw-bold">Planowanie wykorzystania kolejnych technologii</h5>
+                              <p class="card-text">Do wykonania kolejnych etapów projektów planujemy użyć: C#/Python, PHP, mySQL.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESCTOP VERSION -->
+                <div id="carouselExampleDark" class="carousel carousel-light slide d-none d-lg-block" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -213,7 +263,11 @@
             </div>
         </section>
 
-        <div style="height: 100vh;"></div>
+        <div style="height: 7vh;"></div>
+
+        <footer class="bg-dark text-light py-4 text-center">
+            <p class="mb-0">&copy; 2021 | Projekt zespołowy: Michał Bagiński.</p>
+        </footer>
 
     </main>
 
