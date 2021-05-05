@@ -80,6 +80,15 @@
 - konieczne może być umożliwienie pracy Mosquitto pomimo Firewalla,
 - JAK RASOWY INFORMATYK POPROSTU ZRESTARTUJ.
 
+# Konfiguracja urządzeń dla protokolu MQTT
+## Komputer z Windows jako urządzenie 
+
+Konfiguracja urządzenia działającego po protokole MQTT jest bardzo podobna jak w przypadku brokera.
+- na urządzeniu konieczne jest zainstalowanie Mosquitto,
+- otwarcie portu 1883 w dokładnie ten sam sposób(najprawdopodobniej wystarczy tylko reguła przychodząca - sprawdzone doświadczalnie - można również utworzyć regułę wychodzącą),
+- w tym przypadku nie jest konieczne dokonywanie zmian w pliku konfiguracyjnym.
+
+
 ŹRÓDŁA:
   http://bytesofgigabytes.com/mqtt/installing-mqtt-broker-on-windows/?fbclid=IwAR1U6EgJXPvWNEq9uBaOsEB6r2LaFiJhkCSnKC6AsjvhMEgz-QYzsGPEx7E
   http://bytesofgigabytes.com/networking/how-to-open-port-in-windows/
