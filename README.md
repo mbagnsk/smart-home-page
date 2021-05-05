@@ -71,7 +71,8 @@
   Domyślnie parametr **allow_anonymous** ustawiony jest na **false** co oznacza, że wymagana jest autoryzacja użytkownika udostępniającego dane.
   Wartość parametru **listener** domyślnie nie jest zdefiniowana.
   
-  W oryginalnym pliku konfiguracyjnym znak # oznacza komentarz. Trzeba pamiętać o odkomentowaniu dokonanych zmian.
+  W oryginalnym pliku konfiguracyjnym znak # oznacza komentarz. Trzeba pamiętać ouruchomieniu pliku jako administrator, odkomentowaniu dokonanych zmian oraz zapisaniu ich.
+  
 ## Popularne problemy
 - Wiersz poleceń należy uruchamiać jako administrator,
 - otwarcie portu w prawidłowy sposób(sprawdź czy port faktycznie jest otwarty, komenda powyżej),
