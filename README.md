@@ -43,10 +43,13 @@
   - przyciśnij **Windows+R**,
   - otwórz **firewall.cpl**,
   - przejdź do **Ustawienia zaawansowane**,
+  - ![windows-defender-firewall](https://user-images.githubusercontent.com/56918406/117128844-388af180-ad9e-11eb-9fff-5ba0f0542585.png)
   - wybierz **Reguły wbudowane** oraz stwórz nową regułę,
+  - ![inbounded-rules](https://user-images.githubusercontent.com/56918406/117128839-37f25b00-ad9e-11eb-830e-a6a660655b32.png)
   - stwórz regułę rodzaju **Port**,
   - wybierz protokół **TCP** oraz konkretny port: **1883**,
-  - zezwól na połączenia oraz wybierz zastosowania dla reguły,
+  - zezwól na połączenia(obejmujące połączenia chronione za pomocąprotokołu IPsec, jak i połączenia niechronione),
+  - wybierz zastosowania dla reguły(wybrano wszystkie),
   - nazwij regułę,
   - sprawdź czy reguła istnieje oraz jest uruchomiona w oknie **Reguły przychodzące**.
   
