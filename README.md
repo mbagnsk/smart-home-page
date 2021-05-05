@@ -77,3 +77,7 @@
 - konieczne może być umożliwienie pracy Mosquitto pomimo Firewalla,
 - JAK RASOWY INFORMATYK POPROSTU ZRESTARTUJ.
 
+ŹRÓDŁA:
+  http://bytesofgigabytes.com/mqtt/installing-mqtt-broker-on-windows/?fbclid=IwAR1U6EgJXPvWNEq9uBaOsEB6r2LaFiJhkCSnKC6AsjvhMEgz-QYzsGPEx7E
+  http://bytesofgigabytes.com/networking/how-to-open-port-in-windows/
+  https://github.com/eclipse/mosquitto/issues/1985
