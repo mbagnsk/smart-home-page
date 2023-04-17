@@ -1,4 +1,7 @@
 # team-project-smart-house
+Repozytorium dla projektu zespołowego.
+Strona projektu: mbagnsk.github.io/
+
 
 # Instalacja oraz konfiguracja brokera MQTT na Windows
 ## Instalacja brokera
